@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(252, 252, 252);
+}
+
+header {
+  color: rgb(172, 89, 41);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 60px;
+  font-size: 28px;
+}
+
+.burger {
+  height: 30px;
+}
+
+/* Header ends here */
+
+/* Banner starts here */
+
+.banner {
+  display: flex;
+  align-items: center;
+  height: 600px;
+  width: 100%;
+  background: url(/banner.jpg) no-repeat center;
+  background-size: cover;
+  color: rgb(252, 252, 252);
+}
+
+.banner-title {
+  color: rgb(172, 89, 41);
+  font-size: 60px;
+  width: 60vw;
+  margin-left: 40px;
+}
+
+.banner-des {
+  padding: 30px 40px 20px 40px;
+}
+
+.banner span {
+  color: rgb(219, 170, 64);
+}
+
+.btn {
+  background: rgb(75, 62, 54);
+  color: rgb(252, 252, 252);
+  padding: 10px 15px;
+  margin: 0 40px;
+}
+
+/* Banner ends here */
+/* The second section starts here */
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(252, 252, 252);
+  padding: 10vh;
+  text-shadow: 5px 5px 10px black;
+}
+
+.pics1 {
+  display: flex;
+  align-items: center;
+  background: url(/1.jpg) no-repeat center;
+  background-size: cover;
+  width: 40vw;
+  height: 55vh;
+  margin-right: 15px;
+  padding-left: 50px;
+  font-size: 30px;
+}
+
+.pics2 {
+  display: flex;
+  align-items: center;
+  background: url(/2.jpg) no-repeat center;
+  background-size: cover;
+  width: 40vw;
+  height: 55vh;
+  margin-left: 15px;
+  padding-left: 50px;
+  font-size: 30px;
+}
+
+.btn2 {
+  font-size: 15px;
+  text-decoration-line: underline;
+  color: rgb(252, 252, 252);
+}
+
+.container2 {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-title {
+  font-size: 13px;
+  font-style: italic;
+  color: rgb(219, 170, 64);
+}
+
+.title {
+  font-size: 20px;
+}
+
+hr {
+  height: 2px;
+  width: 200px;
+  background-color: rgb(219, 170, 64);
+  border: none;
+  margin: 2px auto;
+}
+
+/* The third section ends here
+  The fourth section starts here */
+
+.container3 {
+  display: flex;
+  justify-content: center;
+}
+
+.pic-table1 {
+  margin: 5px;
+}
+
+.merch-img {
+  width: 20vw;
+  height: 350px;
+  object-fit: cover;
+}
+
+/*   Discounts */
+
+.discounts {
+  width: 83%;
+  height: 55vh;
+  background: url(/discount-img.jpg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10vh auto;
+  color: rgb(252, 252, 252);
+  padding-top: 20px;
+  text-shadow: 3px 3px 5px black;
+}
+
+.discounts h3 {
+  font-size: 30px;
+}
+
+.btn3 {
+  background: rgba(252, 252, 252, 0.473);
+  padding: 13px 25px;
+  margin-top: 15px;
+  color: black;
+  text-shadow: none;
+}
+
+/*-----------------------*/
+
+.container4 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: rgb(252, 252, 252);
+  padding: 10vh;
+  text-shadow: 5px 5px 10px black;
+}
+
+.pics4 {
+  display: flex;
+  align-items: center;
+  background: url(/1.jpg) no-repeat center;
+  background-size: 100%;
+  width: 40vw;
+  height: 55vh;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.btn2 {
+  font-size: 15px;
+  text-decoration-line: underline;
+  color: rgb(252, 252, 252);
+}
